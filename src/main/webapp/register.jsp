@@ -20,8 +20,8 @@
         } else {
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection conn = DriverManager.getConnection(
-                        "jdbc:mysql://127.0.0.1:3306/travel_guide", "root", "Obslink_19");
+                // add your database values
+                Connection conn = DriverManager.getConnection(//database url,host,name e.g jdbc:mysql://127.0.0.1:9999/example", "root", "Obslink_19);
 
                 PreparedStatement checkUser = conn.prepareStatement("SELECT * FROM users WHERE email = ?");
                 checkUser.setString(1, email);
