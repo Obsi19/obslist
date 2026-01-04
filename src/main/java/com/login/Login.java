@@ -18,9 +18,9 @@ import java.sql.*;
 public class Login extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-	private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/travel_guide";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Obslink_19";
+	private static final String DB_URL = "";
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
