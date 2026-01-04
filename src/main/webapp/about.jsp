@@ -18,7 +18,8 @@
                     // Fetch user details from the database
                     try {
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/travel_guide", "root", "Obslink_19");
+                        add your database 
+                        Connection conn = DriverManager.getConnection("//database url,host,name e.g "jdbc:mysql://127.0.0.1:9999/example", "root", "Obslink_19");
 
                         PreparedStatement ps = conn.prepareStatement("SELECT first_name, last_name FROM users WHERE email = ?");
                         ps.setString(1, userEmail);
