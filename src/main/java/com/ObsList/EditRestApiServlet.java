@@ -9,9 +9,9 @@ import org.json.JSONObject;
 @WebServlet("/api/edit/*")
 public class EditRestApiServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    private final String DB_URL = "jdbc:mysql://127.0.0.1:3306/travel_guide";
-    private final String DB_USER = "root";
-    private final String DB_PASSWORD = "Obslink_19";
+    private final String DB_URL = "";
+    private final String DB_USER = "";
+    private final String DB_PASSWORD = "";
 
     /**
      * Handles PUT requests for updating destinations
